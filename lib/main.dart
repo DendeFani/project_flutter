@@ -1,7 +1,7 @@
 //ini wajib
 import 'package:flutter/material.dart';
 
-import 'home.dart';
+import 'button.dart';
 
 //ini kode yang akan pertama kali dijalankan oleh flutter
 void main() {
@@ -14,6 +14,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: MyHome());
+    return MaterialApp(home: Button());
   }
 }

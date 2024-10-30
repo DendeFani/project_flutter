@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 
-class Kamboja extends StatelessWidget {
-  const Kamboja({Key? key}) : super(key: key);
+class Krissan extends StatelessWidget {
+  const Krissan({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Bunga Kamboja")),
+      appBar: AppBar(title: Text("Bunga Krissan")),
       body: Column(
         children: [
           Image(
               image: NetworkImage(
-                  "https://tse3.mm.bing.net/th?id=OIP.q3Kr5bVZLL0ILKcXdOCviAHaFj&pid=Api&P=0&h=180")),
-          Text("Bunga Kamboja",
+                  "https://cdn1.katadata.co.id/media/images/temp/2023/02/02/Ilustrasi_bunga_krisan_merah-2023_02_02-10_03_19_d6c48a61d92291cafc5e96f722607e6b.jpg")),
+          Text("Bunga Krissan",
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 fontSize: 22,
